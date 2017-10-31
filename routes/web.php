@@ -14,3 +14,14 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::get('/portfolio/js/weather', function () {
+	return view('js-weather.index', ['default' => '81001']);
+});
+
+Route::get('/portfolio/js/hangman', function() {
+	return view('js-hangman.index');
+});
+
+

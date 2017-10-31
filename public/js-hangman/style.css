@@ -1,0 +1,142 @@
+input {
+	text-align: center;
+	padding: 8px;
+	width: 60%;
+	font-size: 16px;
+}
+
+input[type="password"] {
+    mask-size: 32px;
+}
+
+#gameBoard {
+	display: none;
+}
+
+#singleplayer, #multiplayer {
+	display: block;
+	width: 75%;
+	height: 50px;
+	margin: 50px auto;
+	background-color: blue;
+	color: white;
+	border: none;
+}
+
+i {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+#createGuess, #restartInGuess {
+	width: 60px;
+	height: 45px;
+	background-color: blue;
+	color: white;
+	border: none;
+}
+
+#createGuess {
+	margin-left: 10px;
+}
+
+#restartInGuess {
+	margin-left: 20px;
+}
+
+#win {
+	display: none;
+}
+
+#loss {
+	display: none;
+}
+
+#phraseDiv {
+	display: none;
+	margin-top: 30px;
+}
+
+#guessDiv {
+	display: none;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#guessPhraseDiv {
+	display: none;
+}
+
+#userPhrase {
+	margin: 0 auto;
+}
+
+#userGuess {
+	height: 45px;
+	width: 25%;
+	margin: 0 auto;
+}
+
+#letterIncorrectLetters {
+	display: none;
+}
+
+.hangmanName {
+	background-color: #ABD0CE;
+}
+
+h1 {
+	padding: 20px;
+	margin: 0;
+	color: #1D2951;
+	text-align: center;
+}
+
+#showPhrase:hover {
+	cursor: pointer;
+}
+
+#phrase {
+	letter-spacing: 10px;
+	font-size: x-large;
+	width: 100%;
+	margin: 0;
+	height: 100%;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Flexbox */
+
+.row.is-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.row.is-flex > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+}
+
+.row.is-flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.row.is-flex > [class*='col-'] {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}

@@ -26,7 +26,7 @@ document.onreadystatechange = function() {
 
 function getWeather() {
 
-	var url = "http://api.openweathermap.org/data/2.5/weather?zip=<zipcode>,us&appid=89733a9ae56a181e71b5ed9c9b71444a";
+	var url = "https://api.openweathermap.org/data/2.5/weather?zip=<zipcode>,us&appid=89733a9ae56a181e71b5ed9c9b71444a";
 	url = url.replace("<zipcode>", zipInput.value);
 
 	apiRequest = new XMLHttpRequest();

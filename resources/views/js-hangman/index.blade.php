@@ -17,7 +17,7 @@
 	<div class="row">
 		<div class="col-xs-2"></div>
 		<div class="col-xs-8 hangmanName">
-			<h1>Hangman</h1>
+			<h1><a href="/">Hangman</a></h1>
 		</div>
 		<div class="col-xs-2"></div>
 	</div>
